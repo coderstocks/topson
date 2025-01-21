@@ -1,0 +1,139 @@
+@import url(common.css);
+/* navbar */
+.nav-link {
+  position: relative;
+  width: fit-content;
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  right: 0;
+  width: 0%;
+  z-index: -1;
+  height: 5px;
+  background-color: var(--primary);
+  transition: 0.3s all ease-in-out;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  right: calc(100% + 10px);
+  width: 0%;
+  height: 5px;
+  background-color: black;
+  transition: 0.3s all ease-in-out;
+}
+.nav-link:hover::before {
+  width: calc(100% + 20px);
+}
+.nav-link:hover::after {
+  width: 7px;
+}
+/* banner */
+.carousel-caption{
+    top: 10%;
+    left: 7%;
+    width: 100%;
+    text-align: start;
+}
+.carousel-indicators{
+    align-items: center;
+}
+.carousel-indicators  [data-bs-target]{
+    background-color: black;
+    opacity: 100%;
+}
+.carousel-indicators .active{
+    width: 50px;
+    height: 5px;
+}
+.carousel-control-prev{
+    left: 85%;
+}
+.carousel-control-prev::after{
+    content: "Prev";
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 100%;
+}
+.carousel-control-next{
+    left: 95%;
+}
+.carousel-control-next::after{
+    content: "Next";
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    left: -150%;
+}
+.carousel-control-next, .carousel-control-prev{
+    align-items: baseline;
+    padding-top: 20px;
+    width: fit-content;
+    opacity: 1;
+    height: fit-content;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media only screen and (max-width: 692px) {
+    .carousel-item img{
+        height: 80vh;
+        object-fit: cover;
+    }
+    .content h2{
+        font-size: 30px;
+    } 
+    .carousel-caption{
+        top: 20%;
+        left: 7%;
+        width: 100%;
+        text-align: start;
+    }
+    .text-animation {
+        top: -100px;
+        left: -5px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        align-items: baseline;
+        padding-top: 20px;
+        width: 10%;
+    }
+    .carousel-control-next{
+        left: 80%;
+    }
+    .carousel-control-prev{
+        left: 10%;  
+    }
+}
+/* testimonial */
+.testimonial{
+    position: relative;
+}
+.testimonial img{
+    height: 70vh;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.testimonial .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .7);
+}
+.testimonial .card-img-overlay{
+    z-index: 2;
+}
+@media only screen and (max-width: 692px) {
+    .testimonial img{
+        height: 100vh!important;
+        object-fit: cover;
+    }
+}
