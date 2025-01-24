@@ -175,4 +175,36 @@
       transform: translateX(-50%);
     }
   }
+  .reels {
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .reel {
+    position: relative;
+    width: 100%;
+    /* box-shadow: 0 0 8px #eee; */
+  }
+  
+  .reel video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .overlay p {
+    margin: 0;
+  }
   
