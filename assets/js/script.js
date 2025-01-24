@@ -58,7 +58,7 @@ $('.reels').slick({
   infinite: true,
   arrows: true,
   speed: 200,
-  autoplay: true,
+  autoplay: false,
   prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><i class="bi bi-arrow-left"></i></button>',
   nextArrow: '<button class="slick-next" aria-label="Next" type="button"><i class="bi bi-arrow-right"></i></button>',
   autoplaySpeed: 2000,
