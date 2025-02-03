@@ -21,7 +21,7 @@ body {
 ::selection{
     background-color: white;
     color: black;
-}
+} 
 /* Custom Cursor */
 .custom-cursor {
     position: fixed;
@@ -294,10 +294,10 @@ button {
   letter-spacing: 5px;
   background: linear-gradient(
     90deg,
-    rgb(20, 20, 20), /* Solid White */
-    rgba(240, 240, 240, 0.8), /* Light Grey */
+    rgba(20, 20, 20, .6), /* Solid White */
+    rgba(240, 240, 240, 0.7), /* Light Grey */
     rgba(255, 255, 255, 1), /* Solid White */
-    rgba(0, 0, 0, 0.8)  /* Light Grey */
+    rgba(0, 0, 0, 0.6)  /* Light Grey */
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -336,10 +336,10 @@ button {
   letter-spacing: 5px;
   background: linear-gradient(
     90deg,
-    rgb(20, 20, 20), /* Solid White */
-    rgba(240, 240, 240, 0.8), /* Light Grey */
+    rgba(20, 20, 20, .6), /* Solid White */
+    rgba(240, 240, 240, 0.7), /* Light Grey */
     rgba(255, 255, 255, 1), /* Solid White */
-    rgba(0, 0, 0, 0.8)  /* Light Grey */
+    rgba(0, 0, 0, 0.6)  /* Light Grey */
   );
   -webkit-background-clip: text;
   background-clip: text;
