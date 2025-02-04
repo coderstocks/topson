@@ -294,6 +294,26 @@ button {
   letter-spacing: 5px;
   background: linear-gradient(
     90deg,
+    rgba(0, 0, 0, 1), /* Semi-transparent Black */
+    rgba(62, 47, 0, 0.7), /* Semi-transparent Dark Gold */
+    rgba(122, 82, 0, 0.8), /* Semi-transparent Rich Golden Brown */
+    rgba(255, 215, 0, 1) 
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 6s ease-in-out infinite;
+}
+.contentsssss .text-animation {
+  position: absolute;
+  top: -60px;
+  left: -12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background: linear-gradient(
+    90deg,
     rgba(20, 20, 20, .6), /* Solid White */
     rgba(240, 240, 240, 0.7), /* Light Grey */
     rgba(255, 255, 255, 1), /* Solid White */
@@ -537,8 +557,8 @@ button {
 
 .call {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 100px;
+  right: 20px;
   width: 60px;
   transition: .1s all ease-in-out;
   height: 60px;
@@ -555,4 +575,16 @@ button {
 .call:hover {
   background-color: white;
   color: #222222;
+}
+
+
+.product-detail .card-img-overlay.bg-white.bg-black{
+  background-color: #ed3237!important;
+  color: white!important;
+}
+.product-detail .card-img-overlay.bg-white.bg-black .card-title{
+  color: white!important;
+}
+.product-detail .card-img-overlay.bg-white.bg-black .text-secondary{
+  color: white!important;
 }

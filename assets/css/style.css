@@ -141,17 +141,18 @@
 .brand-carousel-container {
     width: 100%;
     overflow: hidden;
-    background-color: #2b2626;
-    padding: 20px 0;
+    /* background-color: #2b2626; */
+    /* padding: 20px 0; */
   }
   .brand-carousel {
     display: flex;
     width: max-content;
+    align-items: center;
     animation: scroll 15s linear infinite;
   }
   .brand-carousel-item {
     flex: none;
-    height: 56px;
+    /* height: 56px; */
     margin: 0 25px;
     padding: 0 16px;
     color: white;
@@ -162,7 +163,7 @@
     object-fit: contain;
     transition: transform 0.5s;
     border-radius:4px;
-    background: #111;
+    /* background: #111; */
   }
   .brand-carousel .brand-carousel-item:hover {
     transform: scale(1.1);
