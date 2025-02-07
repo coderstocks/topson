@@ -132,7 +132,7 @@
     z-index: 2;
 }
 @media only screen and (max-width: 692px) {
-    .testimonial img{
+    .testimonial img {
         height: 100vh!important;
         object-fit: cover;
     }
