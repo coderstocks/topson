@@ -41,7 +41,7 @@
 .carousel-indicators{
     align-items: center;
 }
-.carousel-indicators  [data-bs-target]{
+.carousel-indicators [data-bs-target]{
     background-color: black;
     opacity: 100%;
 }   
