@@ -288,16 +288,16 @@ button {
 }
 .content .text-animation {
   position: absolute;
-  top: -60px;
+  top: -76px;
   left: -12px;
   text-transform: uppercase;
   letter-spacing: 5px;
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 1), /* Semi-transparent Black */
-    rgba(62, 47, 0, 0.7), /* Semi-transparent Dark Gold */
-    rgba(122, 82, 0, 0.8), /* Semi-transparent Rich Golden Brown */
-    rgba(255, 215, 0, 1) 
+    rgba(0, 0, 0, .8), /* Semi-transparent Black */
+    rgba(62, 47, 0, 0.6), /* Semi-transparent Dark Gold */
+    rgba(122, 82, 0, 0.6), /* Semi-transparent Rich Golden Brown */
+    rgba(255, 215, 0, .8) 
   );
   -webkit-background-clip: text;
   background-clip: text;
